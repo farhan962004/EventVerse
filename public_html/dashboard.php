@@ -19,7 +19,7 @@ if (!isset($_SESSION['username'])) {
     </header>
     <main>
         <h2>Welcome, <?php echo $_SESSION['username']; ?>!</h2>
-        <p>This is your dashboard. From here, you can manage your events and profile.</p>
+        <p>This is your dashboard. From here, you can manage your events and profile!</p>
         <!-- Add more dashboard features as needed -->
     </main>
     <footer>
