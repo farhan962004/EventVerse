@@ -1,0 +1,87 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+main {
+    padding: 20px;
+}
+
+.host-event-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.host-event-container h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.host-event-container .success-message,
+.host-event-container .error-message {
+    font-size: 16px;
+    color: green;
+    margin-bottom: 20px;
+}
+
+.host-event-container .error-message {
+    color: red;
+}
+
+.host-event-container form {
+    text-align: left;
+}
+
+.host-event-container label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.host-event-container input[type="text"],
+.host-event-container input[type="datetime-local"],
+.host-event-container select,
+.host-event-container textarea,
+.host-event-container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.host-event-container input[type="text"]:focus,
+.host-event-container input[type="datetime-local"]:focus,
+.host-event-container select:focus,
+.host-event-container textarea:focus,
+.host-event-container input[type="file"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.host-event-container button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.host-event-container button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}

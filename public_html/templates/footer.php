@@ -1,3 +1,7 @@
 <footer>
-    <p>&copy; <?php echo date("Y"); ?> EventVerse. All rights reserved.</p>
-</footer>
+        <div class="container">
+            <p>&copy; 2024 Eventverse. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

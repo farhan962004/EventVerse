@@ -1,0 +1,47 @@
+.events-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.events-container h2 {
+    text-align: center;
+}
+
+.events-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.event-item {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.event-item h3 {
+    margin-top: 0;
+}
+
+.event-item img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.event-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.event-details-container img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}

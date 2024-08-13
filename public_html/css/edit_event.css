@@ -1,0 +1,61 @@
+.host-event-container, .edit-event-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.host-event-container h2, .edit-event-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.host-event-container form, .edit-event-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.host-event-container form div, .edit-event-container form div {
+    margin-bottom: 15px;
+}
+
+.host-event-container label, .edit-event-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.host-event-container input[type="text"],
+.host-event-container input[type="datetime-local"],
+.host-event-container select,
+.host-event-container textarea,
+.edit-event-container input[type="text"],
+.edit-event-container input[type="datetime-local"],
+.edit-event-container select,
+.edit-event-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.host-event-container input[type="file"],
+.edit-event-container input[type="file"] {
+    padding: 10px;
+}
+
+.host-event-container button, .edit-event-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.host-event-container button:hover, .edit-event-container button:hover {
+    background-color: #0056b3;
+}

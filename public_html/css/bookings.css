@@ -1,0 +1,32 @@
+.bookings-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bookings-container h2 {
+    text-align: center;
+}
+
+.bookings-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.booking-item {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.booking-item h3 {
+    margin-top: 0;
+}
+
+.booking-item img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
