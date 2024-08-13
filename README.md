@@ -39,7 +39,7 @@ EventVerse is built with simplicity and efficiency in mind. The platform allows 
 
 The project is organized into directories to ensure maintainability and ease of access:
 
-\`\`\`plaintext
+\`\`\`bash
 EventVerse/
 ├── .vscode/                  # Configuration files
 ├── private/                  # PHP files for config and database setup
