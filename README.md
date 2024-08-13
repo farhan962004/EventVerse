@@ -39,7 +39,7 @@ EventVerse is built with simplicity and efficiency in mind. The platform allows 
 
 The project is organized into directories to ensure maintainability and ease of access:
 
-\`\`\`bash
+```plaintext
 EventVerse/
 ├── .vscode/                  # Configuration files
 ├── private/                  # PHP files for config and database setup
@@ -54,7 +54,7 @@ EventVerse/
 │   ├── templates/            # Template PHP files
 │   ├── uploads/              # Uploaded image files
 │   └── user/                 # User-related PHP files
-\`\`\`
+```
 
 ## Installation Instructions
 
@@ -64,22 +64,22 @@ To get EventVerse up and running on your own server, follow these steps:
    - Upload the EventVerse project files to your server, ensuring the directory structure is preserved.
 
 2. **Set Database Credentials:**
-   - Open \`db.php\` in the \`private\` directory and enter your database credentials.
+   - Open `db.php` in the `private` directory and enter your database credentials.
 
 3. **Set Permissions:**
    - Set the appropriate permissions for directories and files:
-     \`\`\`bash
+     ```bash
      chmod -R 755 /path/EventVerse
      chmod 644 /path/EventVerse/private/db.php
-     \`\`\`
+     ```
 
 4. **Test Database Connection:**
    - Verify the database connection by navigating to:
-     \`https://yourdomain.com/EventVerse/private/test_db.php\`
+     `https://yourdomain.com/EventVerse/private/test_db.php`
 
 5. **Set Up the Database:**
    - Complete the database setup by accessing:
-     \`https://yourdomain.com/EventVerse/private/install.php\`
+     `https://yourdomain.com/EventVerse/private/install.php`
 
 ## Security Features
 
@@ -87,9 +87,9 @@ EventVerse is built with robust security measures to protect both organizers and
 
 - **Field Validation:** Both client-side (JavaScript) and server-side (PHP) validations ensure data integrity.
 - **SQL Injection Protection:** Prepared statements and input escaping are used to prevent SQL injection.
-- **Password Security:** Passwords are hashed using PHP’s \`password_hash()\` function.
+- **Password Security:** Passwords are hashed using PHP’s `password_hash()` function.
 - **Session Management:** Secure session handling with validation on each request.
-- **Input Sanitization:** Prevents XSS attacks using \`htmlspecialchars()\`.
+- **Input Sanitization:** Prevents XSS attacks using `htmlspecialchars()`.
 - **File Upload Security:** Uploaded files are validated for type and size restrictions.
 
 ## Test User Credentials
@@ -97,9 +97,9 @@ EventVerse is built with robust security measures to protect both organizers and
 Use the following credentials to explore the platform:
 
 - **Admin Access:**
-  - Username: \`admin@admin.com\`
-  - Password: \`Admin@123\`
+  - Username: `admin@admin.com`
+  - Password: `Admin@123`
 
 - **User Access:**
-  - Username: \`Test@123.com\`
-  - Password: \`Test@123\`
+  - Username: `Test@123.com`
+  - Password: `Test@123`
