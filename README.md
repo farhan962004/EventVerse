@@ -1,3 +1,4 @@
+
 # EventVerse
 
 [![Live Website](https://img.shields.io/badge/Live%20Website-View%20Now-brightgreen)](https://comp3340.khan2g1.myweb.cs.uwindsor.ca/EventVersee/public_html/)
@@ -38,7 +39,7 @@ EventVerse is built with simplicity and efficiency in mind. The platform allows 
 
 The project is organized into directories to ensure maintainability and ease of access:
 
-
+\`\`\`plaintext
 EventVerse/
 ├── .vscode/                  # Configuration files
 ├── private/                  # PHP files for config and database setup
@@ -53,7 +54,7 @@ EventVerse/
 │   ├── templates/            # Template PHP files
 │   ├── uploads/              # Uploaded image files
 │   └── user/                 # User-related PHP files
-
+\`\`\`
 
 ## Installation Instructions
 
